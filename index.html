@@ -14,6 +14,51 @@
   </head>
 
   <body>
+
+    <div id="container">
+
+      <h1>HANGMAN</h1>
+
+      <div id="buttons">
+        <button type="button" value="a" id="aBtn" class="button" onClick="letterGuess(this.value)">a</button>
+        <button type="button" value="b" id="bBtn" class="button" onClick="letterGuess(this.value)">b</button>
+        <button type="button" value="c" id="cBtn" class="button" onClick="letterGuess(this.value)">c</button>
+        <button type="button" value="d" id="dBtn" class="button" onClick="letterGuess(this.value)">d</button>
+        <button type="button" value="e" id="eBtn" class="button" onClick="letterGuess(this.value)">e</button>
+        <button type="button" value="f" id="fBtn" class="button" onClick="letterGuess(this.value)">f</button>
+        <button type="button" value="g" id="gBtn" class="button" onClick="letterGuess(this.value)">g</button>
+        <button type="button" value="h" id="hBtn" class="button" onClick="letterGuess(this.value)">h</button>
+        <button type="button" value="i" id="iBtn" class="button" onClick="letterGuess(this.value)">i</button>
+        <button type="button" value="j" id="jBtn" class="button" onClick="letterGuess(this.value)">j</button>
+        <button type="button" value="k" id="kBtn" class="button" onClick="letterGuess(this.value)">k</button>
+        <button type="button" value="l" id="lBtn" class="button" onClick="letterGuess(this.value)">l</button>
+        <button type="button" value="m" id="mBtn" class="button" onClick="letterGuess(this.value)">m</button>
+        <button type="button" value="n" id="nBtn" class="button" onClick="letterGuess(this.value)">n</button>
+        <button type="button" value="o" id="oBtn" class="button" onClick="letterGuess(this.value)">o</button>
+        <button type="button" value="p" id="pBtn" class="button" onClick="letterGuess(this.value)">p</button>
+        <button type="button" value="q" id="qBtn" class="button" onClick="letterGuess(this.value)">q</button>
+        <button type="button" value="r" id="rBtn" class="button" onClick="letterGuess(this.value)">r</button>
+        <button type="button" value="s" id="sBtn" class="button" onClick="letterGuess(this.value)">s</button>
+        <button type="button" value="t" id="tBtn" class="button" onClick="letterGuess(this.value)">t</button>
+        <button type="button" value="u" id="uBtn" class="button" onClick="letterGuess(this.value)">u</button>
+        <button type="button" value="v" id="vBtn" class="button" onClick="letterGuess(this.value)">v</button>
+        <button type="button" value="w" id="wBtn" class="button" onClick="letterGuess(this.value)">w</button>
+        <button type="button" value="x" id="xBtn" class="button" onClick="letterGuess(this.value)">x</button>
+        <button type="button" value="y" id="yBtn" class="button" onClick="letterGuess(this.value)">y</button>
+        <button type="button" value="z" id="zBtn" class="button" onClick="letterGuess(this.value)">z</button>
+      </div>
+
+      <div id="guess"></div>
+
+      <div id="guessedLetters"><br></div>
+
+      <canvas id="hangman" width="200" height="200" style="border:1px solid #c3c3c3;"></canvas>
+
+      <div id="lives"></div>
+
+      <button type="button" value="restart" id="restartButton" onClick="gameRestart(this.value)">Restart</button>
+
+    </div>
       <script src="script.js"></script>
   </body>
 </html>

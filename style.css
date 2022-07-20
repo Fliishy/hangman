@@ -1,1 +1,63 @@
 /* stylesheet */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(165, 165, 165, 0.116);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    text-align: center;
+    max-width: 750px;
+}
+
+button {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding:5px 10px 5px 10px;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+#guess {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#guessedLetters {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#lives {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#restartButton {
+    display: none;
+}
+
+#restartButton:hover {
+    background-color: black;
+    color: white;
+}
